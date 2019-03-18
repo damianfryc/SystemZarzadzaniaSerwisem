@@ -1,0 +1,26 @@
+###nowe okno:
+ try {
+            FXMLLoader loader = new FXMLLoader(sample.LoginController.class.getResource("Login.fxml"));
+            Scene scene = new Scene(loader.load(), 600, 400);
+            Stage stage = new Stage();
+            stage.setTitle("zaloguj");
+            stage.setScene(scene);
+            stage.show();
+        }catch (Exception exp){exp.printStackTrace();}
+###open magazyn new window:
+ public void openMagazyn(){
+
+      FXMLLoader loader = new FXMLLoader();
+      loader.setLocation(getClass().getResource("MagazynWindow.fxml"));
+      Pane pane = null;
+        try {
+            pane = loader.load();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Scene scene = new Scene(pane);
+        Stage window = new Stage();
+        window.setScene(scene);
+        window.show();
+
+    }
