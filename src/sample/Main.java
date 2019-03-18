@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+
     Stage primaryStage;
 
     public static void main(String[] args) {
@@ -27,5 +28,11 @@ public class Main extends Application {
         primaryStage.show();
 
     }
+
+
+
+
+
+
 
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Java template
 *.class
 
@@ -60,3 +61,7 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Created by .ignore support plugin (hsz.mobi)
+=======
+.idea
+.DS_Store
+>>>>>>> 9642ba649ba52995410949a2c849e461d23e94a4
