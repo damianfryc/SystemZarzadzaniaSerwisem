@@ -1,6 +1,6 @@
 ###nowe okno:
  try {
-            FXMLLoader loader = new FXMLLoader(sample.LoginController.class.getResource("Login.fxml"));
+            FXMLLoader loader = new FXMLLoader(szs.LoginController.class.getResource("Login.fxml"));
             Scene scene = new Scene(loader.load(), 600, 400);
             Stage stage = new Stage();
             stage.setTitle("zaloguj");

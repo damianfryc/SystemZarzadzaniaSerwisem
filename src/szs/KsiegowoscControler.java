@@ -1,22 +1,17 @@
-package sample;
+package szs;
 
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
-import javafx.scene.layout.Pane;
 
-import java.io.IOException;
-
-public class MagazynControler {
+public class KsiegowoscControler {
 
     private LoginController loginControler;
 
     @FXML
-    public void closeMagazyn(){
+    public void closeKsiegowosc(){
     }
 
     @FXML
-    public void editMagazyn(){
+    public void editKsieogwosc(){
     }
 
     public void setLoginControler(LoginController loginControler){
@@ -25,6 +20,6 @@ public class MagazynControler {
         }catch (Exception exp){
             exp.printStackTrace();
         }
-        }
+    }
 
 }

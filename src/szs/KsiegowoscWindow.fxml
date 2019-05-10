@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="888.0" style="-fx-background-color: #2B3A42;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MagazynControler">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="888.0" style="-fx-background-color: #2B3A42;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="szs.MagazynControler">
     <children>
         <ListView layoutY="32.0" prefHeight="577.0" prefWidth="888.0" style="-fx-background-color: #2B3A42;" />
         <Button layoutX="693.0" layoutY="580.0" mnemonicParsing="false" text="Zapisz i zamknij">

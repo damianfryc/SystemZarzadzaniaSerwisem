@@ -1,17 +1,17 @@
-package sample;
+package szs;
 
 import javafx.fxml.FXML;
 
-public class KsiegowoscControler {
+public class MagazynControler {
 
     private LoginController loginControler;
 
     @FXML
-    public void closeKsiegowosc(){
+    public void closeMagazyn(){
     }
 
     @FXML
-    public void editKsieogwosc(){
+    public void editMagazyn(){
     }
 
     public void setLoginControler(LoginController loginControler){
@@ -20,6 +20,6 @@ public class KsiegowoscControler {
         }catch (Exception exp){
             exp.printStackTrace();
         }
-    }
+        }
 
 }

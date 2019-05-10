@@ -1,0 +1,36 @@
+commit a1a319608cd97c0e349b88943d4e3f2f26a30f07
+Author: Bartek <bartek.92k@gmail.com>
+Date:   Mon Mar 18 23:28:01 2019 +0100
+
+    edit gitignore
+
+commit bbdb3e6653b5c5e3d8a36d7f3d874138b559c3d5
+Merge: 754ca47 9642ba6
+Author: Bartek <bartek.92k@gmail.com>
+Date:   Mon Mar 18 21:35:27 2019 +0100
+
+    okno magazyn
+
+commit 754ca47147fc31831315ac1171f985f5364c8a96
+Author: Bartek <bartek.92k@gmail.com>
+Date:   Mon Mar 18 20:30:37 2019 +0100
+
+    okienko magazyn
+
+commit df9cc9fd90ebd4c73a24a1942e492078e3824678
+Author: Bartek <bartek.92k@gmail.com>
+Date:   Wed Mar 13 21:02:52 2019 +0100
+
+    plik bazowy czysty bez konfiguracji
+
+commit 9642ba649ba52995410949a2c849e461d23e94a4
+Author: Bartek <bartek.92k@gmail.com>
+Date:   Wed Mar 13 12:54:40 2019 +0100
+
+    add readme
+
+commit 7bfb8cd955248bd6dd1a0d93a24a07f0c0d46066
+Author: Bartek <bartek.92k@gmail.com>
+Date:   Wed Mar 13 12:45:36 2019 +0100
+
+    od nowa
