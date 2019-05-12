@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane prefHeight="478.0" prefWidth="378.0" style="-fx-background-color: #2B3A42;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.systemzarzadzaniaserwisem.controllsers.LoginController">
+<Pane prefHeight="478.0" prefWidth="378.0" style="-fx-background-color: #2B3A42;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.systemzarzadzaniaserwisem.controllers.LoginController">
        <children>
-            <Button layoutX="134.0" layoutY="334.0" mnemonicParsing="false" text="Zaloguj się">
+            <Button fx:id="ZalogujSieButton" layoutX="134.0" layoutY="334.0" mnemonicParsing="false" onAction="#weryfikacjaUzytkownika" text="Zaloguj się">
          <font>
             <Font name="Verdana" size="16.0" />
          </font></Button>

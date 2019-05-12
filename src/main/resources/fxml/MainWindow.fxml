@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -32,12 +32,12 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button layoutX="206.0" layoutY="14.0" mnemonicParsing="false" onAction="#openKsiegowosc" prefHeight="56.0" prefWidth="245.0" text="Ksiegowość">
+            <Button layoutX="206.0" layoutY="14.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="245.0" text="Ksiegowość">
                <font>
                   <Font name="Verdana" size="16.0" />
                </font>
             </Button>
-            <Button fx:id="MagazynBtn" layoutX="206.0" layoutY="80.0" mnemonicParsing="false" onAction="#openMagazyn" prefHeight="56.0" prefWidth="245.0" text="Magazyn">
+            <Button layoutX="206.0" layoutY="80.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="245.0" text="Magazyn">
                <font>
                   <Font name="Verdana" size="16.0" />
                </font>

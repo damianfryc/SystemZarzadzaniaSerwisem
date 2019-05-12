@@ -14,12 +14,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Login.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/LoginWindow.fxml"));
         Pane pane = loader.load();
         Scene scene = new Scene(pane);
-
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Logowanie");
+        primaryStage.setTitle("Logowanie - SZS");
         primaryStage.show();
         primaryStage.setResizable(false);
     }
